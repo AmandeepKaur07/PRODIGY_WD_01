@@ -7,7 +7,7 @@
    --pinkyGray: hsl(210, 33%, 99%);
    --textColor: #f9fbff;
    --shadow: #151d2816;
-   --red: #ee9898;
+   --red: #f08b8b;
  }
  
  @keyframes slideFromLeft {
@@ -31,29 +31,6 @@
      opacity: 1;
    }
  }
- 
- @keyframes slideFromBottom {
-   0% {
-     transform: translateY(calc(40 * var(--desktopProportions)));
-     opacity: 0;
-   }
-   100% {
-     transform: translateY(0px);
-     opacity: 1;
-   }
- }
- 
- @keyframes slideFromTop {
-   0% {
-     transform: translateY(calc(-70 * var(--desktopProportions)));
-     opacity: 0;
-   }
-   100% {
-     transform: translateY(0px);
-     opacity: 1;
-   }
- }
- 
  * {
    font-family: Nunito;
    font-style: normal;
@@ -63,27 +40,6 @@
    text-align: center;
    transition: 800ms ease;
  }
- 
- *::after {
-   font-family: Nunito;
-   font-style: normal;
-   font-weight: 900;
-   font-size: calc(20 * var(--desktopProportions));
-   color: var(--primaryColor);
-   text-align: center;
-   transition: 800ms ease;
- }
- 
- *:hover::after {
-   font-family: Nunito;
-   font-style: normal;
-   font-weight: 900;
-   font-size: calc(20 * var(--desktopProportions));
-   color: var(--primaryColor);
-   text-align: center;
-   transition: 800ms ease;
- }
- 
  .container {
    max-width: 80%;
    display: block;
@@ -707,34 +663,6 @@
    align-items: center;
  }
  
- .section4-list-item-info .container * {
-   text-align: left;
-   margin: 0;
- }
- 
- .section4-list-item-info-price,
- .section4-list-item-info-name {
-   margin-bottom: calc(15 * var(--desktopProportions)) !important;
- }
- .section4-list-item-info-desc {
-   margin-bottom: calc(35 * var(--desktopProportions)) !important;
- }
- 
- .section4-list-item-info-buttons {
-   display: flex;
-   justify-content: space-between;
- }
- 
- .section4-list-item-info-buttons .button {
-   padding-left: calc(30 * var(--desktopProportions));
-   padding-right: calc(30 * var(--desktopProportions));
- }
- 
- .section4-list-item-info-buttons-buy {
-   background-color: var(--red);
- }
- 
- /* Footer */
  
  footer {
    background-color: var(--pinkyGray);
