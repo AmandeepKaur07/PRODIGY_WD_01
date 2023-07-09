@@ -17,8 +17,6 @@ arrowR.style.transition = `${arrowsTransitionDuration}ms ease`;
 arrowL.addEventListener("click", previous);
 arrowR.addEventListener("click", next);
 
-// arrowR.style.marginLeft = `${picwidth}px - ${arrowL.style.width - arrowR.style.width - arrowL.style.marginLeft - arrowR.style.marginRight}`;
-
 canvas.style.transform = `translateX(0)`;
 
 function next() {
