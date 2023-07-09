@@ -1,8 +1,8 @@
 :root {
   --desktopProportions: 100vw / 1920;
-  --primaryColor: rgb(115, 203, 216);
-  --accentColor1:  rgb(235, 141, 208);
-  --accentcolor2: #f4eeda;
+  --primaryColor: rgb(181, 134, 90);
+  --accentColor1:  rgb(141, 215, 235);
+  --accentcolor2: #bda34b;
   --darkGray: #151d28;
   --pinkyGray: hsl(210, 33%, 99%);
   --textColor: #f9fbff;
@@ -76,12 +76,12 @@
 .product-name {
   font-weight: 600;
   font-size: calc(20 * var(--desktopProportions));
-  color: rgb(78, 192, 227);
+  color: rgb(145, 122, 53);
 }
 
 .product-desc {
   font-weight: 300;
-  color: rgb(112, 197, 214);
+  color: rgb(165, 145, 72);
 }
 
 .button {
