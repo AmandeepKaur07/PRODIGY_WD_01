@@ -1,7 +1,7 @@
 :root {
    --desktopProportions: 100vw / 1920;
-   --primaryColor: rgb(129, 84, 47);
-   --accentColor1: #8de4e9;
+   --primaryColor: rgb(115, 203, 216);
+   --accentColor1:  rgb(235, 141, 208);
    --accentcolor2: #f4eeda;
    --darkGray: #151d28;
    --pinkyGray: hsl(210, 33%, 99%);
