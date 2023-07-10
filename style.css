@@ -1,6 +1,6 @@
 :root {
   --desktopProportions: 100vw / 1920;
-  --primaryColor: rgb(181, 134, 90);
+  --primaryColor: rgb(159, 110, 64);
   --accentColor1:  rgb(141, 215, 235);
   --accentcolor2: #bda34b;
   --darkGray: #151d28;
@@ -75,8 +75,8 @@
 
 .product-name {
   font-weight: 600;
-  font-size: calc(20 * var(--desktopProportions));
-  color: rgb(145, 122, 53);
+  font-size: calc(30 * var(--desktopProportions));
+  color: rgb(158, 133, 58);
 }
 
 .product-desc {
