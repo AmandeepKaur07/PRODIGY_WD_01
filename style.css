@@ -50,6 +50,7 @@
   font-size: calc(30 * var(--desktopProportions));
 }
 
+
 .title {
   font-family: Montserrat;
   font-size: calc(40 * var(--desktopProportions));
@@ -69,8 +70,8 @@
 }
 
 .title:hover::after {
-  opacity: 1;
-  width: 10%;
+  opacity: 5;
+  width: 30%;
 }
 
 .product-name {
@@ -94,6 +95,11 @@
   background-color: transparent;
   cursor: pointer;
   border-radius: calc(28 * var(--desktopProportions));
+}
+
+.button:hover{
+  background-color: rgb(218, 161, 171);
+  
 }
 
 .button-accent {
