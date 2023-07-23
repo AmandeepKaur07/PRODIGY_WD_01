@@ -79,7 +79,6 @@
   font-size: calc(30 * var(--desktopProportions));
   color: rgb(158, 133, 58);
 }
-
 .product-desc {
   font-weight: 300;
   color: rgb(165, 145, 72);

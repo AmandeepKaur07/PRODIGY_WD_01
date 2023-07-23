@@ -45,7 +45,6 @@ var updateFog = function () {
     fogR.style.opacity = 0;
   }
 };
-
 var updateArrows = function () {
   if (piclength == 0) {
     arrowL.style.opacity = 0;
